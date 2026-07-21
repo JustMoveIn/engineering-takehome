@@ -11,11 +11,6 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 | API Routes — parity with Django config/api_router.py
 |--------------------------------------------------------------------------
-|
-| Intentionally omitted (parity with the `main` branch of the Django repo):
-|   - GET /api/readings/export  (Part-1 gap the candidate fills)
-|   - ?anemometer= filter on /api/readings
-|
 */
 
 Route::post('auth-token', AuthTokenController::class);
@@ -36,6 +31,6 @@ Route::middleware('auth:sanctum')->group(function () {
 	Route::get('anemometers/{anemometer}/readings', [AnemometerReadingController::class, 'index']);
 	Route::get('anemometers/{anemometer}/readings/{reading}', [AnemometerReadingController::class, 'show']);
 
-	// readings (NO export route)
+	// readings
 	Route::apiResource('readings', ReadingController::class);
 });

@@ -50,7 +50,9 @@ Please include:
 
 ## How to submit
 
-Fork this repo, work on a branch in your fork, and open the PR **inside your own fork** (your branch into your fork's `main`) — not against this repo. Share the PR link as your deliverable.
+Please **do not fork** this repository. Instead, click **"Use this template" → "Create a new repository"** at the top of this page to make your own independent copy, and set its visibility to **Private**.
+
+Then work on a branch, commit your changes, and open a Pull Request **inside your own repository** (your branch into your copy's `main`). When you're ready to submit, add **`kai-jmi`** as a collaborator (your repo → Settings → Collaborators) so we can review it, and share the PR link as your deliverable.
 
 ## Part 2 — Find the hidden issues, and report on them
 
@@ -90,7 +92,7 @@ For **Part 2**, the opposite mindset applies — be thorough. The more genuine i
 
 # Deliverables
 
-Open a Pull Request in your fork (see [How to submit](#how-to-submit)) containing:
+Open a Pull Request in your own repository (see [How to submit](#how-to-submit)) containing:
 
 - your **Part 1 implementation** (the export) and any tests,
 - a **written report** (e.g. a `REPORT.md` in the repo) covering every issue you found in Part 2 — the what, why, and fix for each,
