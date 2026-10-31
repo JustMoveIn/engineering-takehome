@@ -54,6 +54,8 @@ Please **do not fork** this repository. Instead, click **"Use this template" →
 
 Then work on a branch, commit your changes, and open a Pull Request **inside your own repository** (your branch into your copy's `main`). When you're ready to submit, add **`kai-jmi`** as a collaborator (your repo → Settings → Collaborators) so we can review it, and share the PR link as your deliverable.
 
+Please keep your copy **private**, including after the process ends, and don't publish your solution or report anywhere public. (GitHub doesn't allow a private fork of a public repo, which is why we use a template copy instead.)
+
 ## Part 2 — Find the hidden issues, and report on them
 
 Heads up: this codebase contains a number of **deliberately introduced, non-obvious issues** — spanning correctness, security, performance, data integrity, architecture, and developer experience. Some are subtle and easy to miss on a quick read.
